@@ -1,13 +1,15 @@
 function wlecoming(){
     alert ('Welcom to my CatsPage')
+    let useranswer=prompt("Are you excited to see my page?")
     let catanswer=prompt("which name of cat do you know?")
     alert ('you know'+ catanswer)
+    document.write('<h6>'+ useranswer +'</h6>')
     document.write('<h5>'+ catanswer +'</h5>')
-    document.write('<div>'+'hello'+"</div>")
     console.log(catanswer);
+    console.log(useranswer);
     }
     function printImg(){
-    let userinput = prompt('please enter the number of image do you want to see less than 8?')
+    let userinput = prompt('please enter the number of image do you want to see ?')
     while(userinput>8)
     {
     userinput=prompt("please enter the number less than 8")
